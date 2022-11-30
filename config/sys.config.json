@@ -1,0 +1,6 @@
+{
+    "kafka_conf": {
+        "brokers": "192.168.0.132:9092",
+        "groupId": "rtp_pol_etl"
+    }
+}

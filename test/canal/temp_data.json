@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "id": "12520",
+            "training_uuid": "af53f1d3-d56d-4cb6-928e-f981cdafe512",
+            "coco_dir": "ddddd",
+            "status": "done"
+        },
+        {
+            "id": "12521",
+            "training_uuid": "a0655283-0f05-4c1c-895c-2961045351f0",
+            "coco_dir": "ccccc",
+            "status": "done"
+        },
+        {
+            "id": "12522",
+            "training_uuid": "6dba0860-34ba-4339-b9d6-ae670005e143",
+            "coco_dir": "tttt",
+            "status": "done"
+        }
+    ],
+    "database": "now_forge",
+    "es": 1669699496000,
+    "id": 29,
+    "isDdl": false,
+    "mysqlType": {
+        "id": "int(10) unsigned",
+        "training_uuid": "varchar(255)",
+        "coco_dir": "text",
+        "status": "varchar(255)"
+    },
+    "old": null,
+    "pkNames": ["id"],
+    "sql": "",
+    "sqlType": {
+        "id": 4,
+        "training_uuid": 12,
+        "coco_dir": 2005,
+        "status": 12
+    },
+    "table": "training_list",
+    "ts": 1669699496748,
+    "type": "INSERT"
+}
