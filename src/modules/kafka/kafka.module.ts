@@ -1,3 +1,4 @@
+import { CleanModule } from './../cleaning/clean.module';
 import { Module } from '@nestjs/common';
 import { ClientsModule, Transport } from '@nestjs/microservices';
 import { SequelizeModule } from '@nestjs/sequelize';
@@ -15,7 +16,7 @@ import { KafkaService } from './kafka.service';
                 options: kafkaOptions,
             },
         ]),
-        SequelizeModule.forFeature([Flaw], 'rtp_pol_web'),
+        CleanModule,
     ],
     controllers: [KafkaController],
     providers: [KafkaService],
