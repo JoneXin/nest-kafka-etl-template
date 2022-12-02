@@ -3,6 +3,7 @@
         "host": "127.0.0.1",
         "port": 3306,
         "username": "root",
-        "password": "Leaper@123"
+        "password": "Leaper@123",
+        "database": "rtp_pol_web"
     }
 }

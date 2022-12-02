@@ -8,7 +8,6 @@ export const mysqlConf = {
         synchronize: false,
         timezone: '+08:00',
         query: { raw: true },
-        database: 'rtp_pol_web',
         ...mysqlConfig.rtp_pol_web,
     },
 };
